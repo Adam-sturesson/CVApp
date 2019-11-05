@@ -16,6 +16,8 @@
 		906F158C2369BD4900DA4F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906F158A2369BD4900DA4F26 /* LaunchScreen.storyboard */; };
 		90B493F723706C3000F6BC5E /* LifeExperiencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B493F623706C3000F6BC5E /* LifeExperiencesTableViewCell.swift */; };
 		90B493F923706F2A00F6BC5E /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B493F823706F2A00F6BC5E /* Experience.swift */; };
+		90EF1FAF2371AAFB005D51AE /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */; };
+		90EF1FB12371B2E5005D51AE /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		906F158D2369BD4900DA4F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B493F623706C3000F6BC5E /* LifeExperiencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeExperiencesTableViewCell.swift; sourceTree = "<group>"; };
 		90B493F823706F2A00F6BC5E /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
+		90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				906F15852369BD4900DA4F26 /* Main.storyboard */,
 				90B493F823706F2A00F6BC5E /* Experience.swift */,
 				90508F7E23715E2300B8B9C2 /* ExperienceViewController.swift */,
+				90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */,
+				90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */,
 			);
 			path = CvApp;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 				906F15842369BD4900DA4F26 /* CVViewController.swift in Sources */,
 				906F15802369BD4900DA4F26 /* AppDelegate.swift in Sources */,
 				90B493F723706C3000F6BC5E /* LifeExperiencesTableViewCell.swift in Sources */,
+				90EF1FAF2371AAFB005D51AE /* ExperienceDetailViewController.swift in Sources */,
 				906F15822369BD4900DA4F26 /* SceneDelegate.swift in Sources */,
+				90EF1FB12371B2E5005D51AE /* SkillsViewController.swift in Sources */,
 				90B493F923706F2A00F6BC5E /* Experience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
