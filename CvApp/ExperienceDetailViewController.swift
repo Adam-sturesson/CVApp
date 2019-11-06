@@ -21,8 +21,12 @@ class ExperienceDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
-        // Do any additional setup after loading the view.
+        let experience: Experience  = DataHandler.instance.getSelectedExperience()!
+        
+        NavbarTitle.title = experience.describingLabel
+        image.image = UIImage(named: "\(experience.image)")
+        DescriptionLabel.text = experience.describingLabel
+        DateLabel.text = experience.dateLabel
     }
     
 

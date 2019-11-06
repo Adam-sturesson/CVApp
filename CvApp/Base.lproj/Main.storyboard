@@ -111,27 +111,43 @@
             </objects>
             <point key="canvasLocation" x="551.20000000000005" y="-9.4452773613193415"/>
         </scene>
-        <!--View Controller-->
+        <!--Skills View Controller-->
         <scene sceneID="z55-NV-O6h">
             <objects>
-                <viewController id="MUT-aY-ex1" sceneMemberID="viewController">
+                <viewController id="MUT-aY-ex1" customClass="SkillsViewController" customModule="CvApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3lG-BE-FVN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGM-Vd-23j">
-                                <rect key="frame" x="319" y="24" width="24" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGM-Vd-23j">
+                                <rect key="frame" x="331" y="20" width="24" height="22"/>
                                 <state key="normal" image="xmark.rectangle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="DissMissView:" destination="9tH-6U-K8K" eventType="touchUpInside" id="USe-Mr-zOe"/>
+                                    <action selector="DissMissView:" destination="MUT-aY-ex1" eventType="touchUpInside" id="rVQ-ae-Nax"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zxl-j7-BSI">
+                                <rect key="frame" x="52" y="155" width="255" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BGM-Vd-23j" firstAttribute="top" secondItem="Hi6-UA-fWt" secondAttribute="top" constant="20" id="0hr-6G-y7Z"/>
+                            <constraint firstItem="Hi6-UA-fWt" firstAttribute="trailing" secondItem="BGM-Vd-23j" secondAttribute="trailing" constant="20" id="l1o-Qb-bwF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Hi6-UA-fWt"/>
                     </view>
+                    <connections>
+                        <outlet property="AnimatedView" destination="zxl-j7-BSI" id="d3W-PG-fbh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jpW-lW-6hW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="9tH-6U-K8K" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="549.60000000000002" y="713.79310344827593"/>
+            <point key="canvasLocation" x="549.27536231884062" y="713.16964285714278"/>
         </scene>
         <!--Experience-->
         <scene sceneID="hcM-Cf-KdD">
@@ -176,7 +192,6 @@
                                             <outlet property="ImageInCell" destination="6dy-xd-gZ4" id="BSO-QX-pEz"/>
                                             <outlet property="WorkeNameInCell" destination="dZx-Xm-tvU" id="y9g-7w-pWj"/>
                                             <outlet property="datesInCell" destination="soo-pj-hMA" id="UaK-nd-nKc"/>
-                                            <segue destination="ox8-B6-1aE" kind="show" id="0dn-cA-k1L"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -194,6 +209,7 @@
                     <navigationItem key="navigationItem" title="Experience" id="tDy-QK-hRW"/>
                     <connections>
                         <outlet property="tableView" destination="E9k-0w-zrw" id="z8q-CO-TYB"/>
+                        <segue destination="ox8-B6-1aE" kind="show" identifier="ToDetailview" id="pJA-F6-3LP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUX-8f-W05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -228,9 +244,9 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="k3B-0u-imv">
                                 <rect key="frame" x="20" y="338" width="335" height="309"/>
-                                <mutableString key="text">Coffer barkadeer knave pink Arr loaded to the gunwalls run a rig lee red ensign crow's nest. Pressgang grog fire in the hole landlubber or just lubber line hogshead squiffy rigging parrel stern. Schooner lass scallywag gibbet marooned Brethren of the Coast cutlass mizzenmast Jolly Roger skysail.
+                                <string key="text">Coffer barkadeer knave pink Arr loaded to the gunwalls run a rig lee red ensign crow's nest. Pressgang grog fire in the hole landlubber or just lubber line hogshead squiffy rigging parrel stern. Schooner lass scallywag gibbet marooned Brethren of the Coast cutlass mizzenmast Jolly Roger skysail.
 Sea Legs walk the plank hands Jack Ketch fore cable salmagundi squiffy bowsprit log. Hornswaggle holystone hogshead ho coxswain hempen halter grapple log Jack Tar heave to. Me cackle fruit scallywag Spanish Main Letter of Marque brig knave stern wench long clothes.
-Crack Jennys tea cup fire in the hole six pounders wherry dead men tell no tales reef sails Letter of Marque knave broadside keelhaul. Clap of thunder Pieces of Eight driver pirate crow's nest pink long clothes coffer mizzen swing the lead. Clipper run a shot across the bow blow the man down Sail ho to go on account tackle grog blossom galleon Sink me hands.</mutableString>
+Crack Jennys tea cup fire in the hole six pounders wherry dead men tell no tales reef sails Letter of Marque knave broadside keelhaul. Clap of thunder Pieces of Eight driver pirate crow's nest pink long clothes coffer mizzen swing the lead. Clipper run a shot across the bow blow the man down Sail ho to go on account tackle grog blossom galleon Sink me hands.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
