@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CVViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loadExperienceNew(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func loadSkills(_ sender: UIButton) {
+    }
+    
 }
 
