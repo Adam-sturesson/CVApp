@@ -14,8 +14,8 @@
 		906F15872369BD4900DA4F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906F15852369BD4900DA4F26 /* Main.storyboard */; };
 		906F15892369BD4900DA4F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906F15882369BD4900DA4F26 /* Assets.xcassets */; };
 		906F158C2369BD4900DA4F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906F158A2369BD4900DA4F26 /* LaunchScreen.storyboard */; };
+		90B35CA02375AAAB00AFF45C /* EXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B35C9F2375AAAB00AFF45C /* EXP.swift */; };
 		90B493F723706C3000F6BC5E /* LifeExperiencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B493F623706C3000F6BC5E /* LifeExperiencesTableViewCell.swift */; };
-		90B493F923706F2A00F6BC5E /* experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B493F823706F2A00F6BC5E /* experience.swift */; };
 		90C9F3782372E839002C685D /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C9F3772372E839002C685D /* DataHandler.swift */; };
 		90EF1FAF2371AAFB005D51AE /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */; };
 		90EF1FB12371B2E5005D51AE /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */; };
@@ -31,8 +31,8 @@
 		906F15882369BD4900DA4F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		906F158B2369BD4900DA4F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		906F158D2369BD4900DA4F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B35C9F2375AAAB00AFF45C /* EXP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXP.swift; sourceTree = "<group>"; };
 		90B493F623706C3000F6BC5E /* LifeExperiencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeExperiencesTableViewCell.swift; sourceTree = "<group>"; };
-		90B493F823706F2A00F6BC5E /* experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experience.swift; sourceTree = "<group>"; };
 		90C9F3772372E839002C685D /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
 		90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
 		90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
@@ -76,11 +76,11 @@
 				906F158A2369BD4900DA4F26 /* LaunchScreen.storyboard */,
 				906F158D2369BD4900DA4F26 /* Info.plist */,
 				906F15852369BD4900DA4F26 /* Main.storyboard */,
-				90B493F823706F2A00F6BC5E /* experience.swift */,
 				90508F7E23715E2300B8B9C2 /* ExperienceViewController.swift */,
 				90EF1FAE2371AAFB005D51AE /* ExperienceDetailViewController.swift */,
 				90EF1FB02371B2E5005D51AE /* SkillsViewController.swift */,
 				90C9F3772372E839002C685D /* DataHandler.swift */,
+				90B35C9F2375AAAB00AFF45C /* EXP.swift */,
 			);
 			path = CvApp;
 			sourceTree = "<group>";
@@ -157,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90508F7F23715E2300B8B9C2 /* ExperienceViewController.swift in Sources */,
+				90B35CA02375AAAB00AFF45C /* EXP.swift in Sources */,
 				906F15842369BD4900DA4F26 /* CVViewController.swift in Sources */,
 				906F15802369BD4900DA4F26 /* AppDelegate.swift in Sources */,
 				90B493F723706C3000F6BC5E /* LifeExperiencesTableViewCell.swift in Sources */,
@@ -164,7 +165,6 @@
 				90EF1FAF2371AAFB005D51AE /* ExperienceDetailViewController.swift in Sources */,
 				906F15822369BD4900DA4F26 /* SceneDelegate.swift in Sources */,
 				90EF1FB12371B2E5005D51AE /* SkillsViewController.swift in Sources */,
-				90B493F923706F2A00F6BC5E /* experience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
