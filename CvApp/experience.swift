@@ -12,12 +12,11 @@ class Experience{
     let image: String
     let describingLabel: String
     let dateLabel : String
-    let id: Int
-    init(id:Int, image : String , describingLabel: String , dateLabel:String){
+    
+    init(image : String , describingLabel: String , dateLabel:String){
         self.image = image
         self.describingLabel = describingLabel
         self.dateLabel = dateLabel
-        self.id = id
     }
     
 }
